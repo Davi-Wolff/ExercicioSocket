@@ -13,7 +13,9 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		
 		try {
+                    System.out.println("Digite o endereço de entrada");
 			String endereco = sc.nextLine();
+                    System.out.println("Digite a porta de entrada");
 			int porta = sc.nextInt();
 			
 			Socket sock = new Socket(endereco, porta);
